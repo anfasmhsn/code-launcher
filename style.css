@@ -1,0 +1,84 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4e4;
+    color: #6a1b9a;
+    line-height: 1.6;
+}
+
+/* Header section with background image */
+header {
+    background: url('https://via.placeholder.com/1500x600/FFB6C1/000000') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Section styles */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Heading for section */
+h2 {
+    font-size: 2rem;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Special quote styling */
+.quote {
+    font-style: italic;
+    color: #e91e63;
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+/* Call to action button */
+.cta-button {
+    background-color: #ff66b2;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #e91e63;
+}
+
+/* Footer styles */
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
